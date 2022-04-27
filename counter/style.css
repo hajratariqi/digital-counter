@@ -1,0 +1,73 @@
+@font-face {
+    font-family: tic;
+    src: url(TickingTimebombBB.ttf);
+}
+*{
+    text-align: center;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3.5vw;
+    text-decoration: underline;
+    text-shadow: 3px 3px 2px gainsboro;
+}
+#num{
+    font-size: 7vw;
+    font-family: tic;
+    outline: none;
+    border: none;
+    background-color: rgb(47, 255, 0);
+    color: black;
+    border: 1px solid black;
+    width: 20%;
+    margin-top: 1%;
+    
+}
+#add, #remove, #pause{
+    font-size: 2vw;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+}
+#add{
+    width: 10%;
+    color: #fff;
+    border: 1px solid black;
+    background-color: black;
+    height: 5vw;
+    width: 5%;
+    border-radius: 100%;
+    font-size: 3vw;
+    margin-top:2%;
+    position: absolute;
+    left: 43%;
+}
+#add:hover ,#remove:hover ,#pause:hover{
+    background-color: rgb(47, 255, 0);
+}
+#remove{
+    width: 10%;
+    background-color: rgba(12, 12, 233, 0.883);
+    color: #fff;
+    border: 1px solid black;
+    background-color: black;
+    height: 5vw;
+    width: 5%;
+    border-radius: 100%;
+    font-size: 4vw;
+    margin-top:2%;
+    margin-left: 6%;
+}
+#pause{
+    width: 10%;
+    background-color: rgba(12, 12, 233, 0.883);
+    color: #fff;
+    border: 1px solid black;
+    background-color: black;
+    height: 5vw;
+    width: 5%;
+    border-radius: 100%;
+    font-size: 1.6vw;
+    position:absolute;
+    top: 37%;
+    left: 58%;
+}
